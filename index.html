@@ -8,15 +8,17 @@
 	<link rel="stylesheet" href="images/styles.css"></link>
 </head>
 <body class="darkBg">
-			<audio autoplay="autopaly">
-					<source src="images/cfsl.mp3" type="audio/mp3" />
-			</audio>
+	<div  style="padding-left:600px;">
+	<h1 style="color:white;">圣诞快乐！</h1>
+	</div>
+	<div  style="padding-left:470px; margin-top: 500px">
 		<input type="button" id="clear" value="雪停了"/>
 		<input type="button" id="round" value="下雪了"/>
 		<input type="button" id="shadows" value="换个方式"/>
 		<input type="button" id="roundshadows" value="雪下大了"/>
 		<input type="button" id="collection" value="雪落到地上了"/>
         <input type="button" id="deviceorientation" value="试试看"/>
+	</div>	
 	<div class="collectonme">
 
 	</div>
@@ -26,8 +28,12 @@
 	<div class="collectonme">
 		<p>我会收集雪花哦!!!</p>
 	</div>
-	
-</body>
+	<div id = "music"  style="padding-left:550px;">
+		<audio autoplay="autopaly" controls="controls" loop="loop">
+					<source src="images/cfsl.mp3" type="audio/mp3" />
+		</audio>	
+	</div>
+
 	<script type='text/javascript'> 	
 		$(document).ready(function(){
 			$('.collectonme').hide();
