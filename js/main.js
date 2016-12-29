@@ -82,18 +82,18 @@
         if ($scope.splashIcon === 'spock') {
           $scope.spocked = true;
           _winner = _p2;
-          message = 'You\'ve been Spock\'d';
+          message = '你踩地雷了！';
         } else {
           if (hand === $scope.splashIcon) {
             _winner = 'tie';
-            message = '缘分未尽！';
+            message = '缘分！';
           } else {
             if (hand === 'rock' && $scope.splashIcon === 'scissors' || hand === 'scissors' && $scope.splashIcon === 'paper' || hand === 'paper' && $scope.splashIcon === 'rock') {
               _winner = _p1;
-              message = '胜者为王!';
+              message = '时也!';
             } else {
               _winner = _p2;
-              message = '败者为寇.';
+              message = '命也！';
             }
           }
         }
