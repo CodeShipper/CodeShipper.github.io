@@ -86,14 +86,14 @@
         } else {
           if (hand === $scope.splashIcon) {
             _winner = 'tie';
-            message = '缘分！';
+            message = '再来';
           } else {
             if (hand === 'rock' && $scope.splashIcon === 'scissors' || hand === 'scissors' && $scope.splashIcon === 'paper' || hand === 'paper' && $scope.splashIcon === 'rock') {
               _winner = _p1;
-              message = '时也!';
+              message = '时也';
             } else {
               _winner = _p2;
-              message = '命也！';
+              message = '命也';
             }
           }
         }
