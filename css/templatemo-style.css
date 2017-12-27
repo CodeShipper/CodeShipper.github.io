@@ -113,7 +113,7 @@ button:focus { outline: none; }
 	max-width: none;
 	width: 100%;
 }
-.tm-textbox-1-col { max-width: 600px; }
+.tm-textbox-1-col { max-width: 800px; }
 
 .cd-hero-slider .tm-text { 
 	font-size: 1em;
